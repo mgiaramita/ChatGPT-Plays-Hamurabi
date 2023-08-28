@@ -4,46 +4,46 @@
 # ChatGPT Plays Hammurabi
 
 ```
-   ____ _           _    ____ ____ _____                  
-  / ___| |__   __ _| |_ / ___|  _ \_   _|                 
- | |   | '_ \ / _` | __| |  _| |_) || |                   
- | |___| | | | (_| | |_| |_| |  __/ | |                   
-  \____|_| |_|\__,_|\__|\____|_|    |_|                   
- |  _ \| | __ _ _   _ ___                                 
- | |_) | |/ _` | | | / __|                                
- |  __/| | (_| | |_| \__ \                                
- |_|  _|_|\__,_|\__, |___/                        _     _ 
- | | | | __ _ _ |___/_  _ __ ___  _   _ _ __ __ _| |__ (_)
- | |_| |/ _` | '_ ` _ \| '_ ` _ \| | | | '__/ _` | '_ \| |
- |  _  | (_| | | | | | | | | | | | |_| | | | (_| | |_) | |
- |_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
-                                                          
+   ____ _           _    ____ ____ _____        
+  / ___| |__   __ _| |_ / ___|  _ \_   _|       
+ | |   | '_ \ / _` | __| |  _| |_) || |         
+ | |___| | | | (_| | |_| |_| |  __/ | |         
+  \____|_| |_|\__,_|\__|\____|_|    |_|         
+ |  _ \| | __ _ _   _ ___                       
+ | |_) | |/ _` | | | / __|                      
+ |  __/| | (_| | |_| \__ \                      
+ |_|  _|_|\__,_|\__, |___/              _     _ 
+ | | | | __ _ _ |___/_  _   _ _ __ __ _| |__ (_)
+ | |_| |/ _` | '_ ` _ \| | | | '__/ _` | '_ \| |
+ |  _  | (_| | | | | | | |_| | | | (_| | |_) | |
+ |_| |_|\__,_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
+                                                                                                          
 ```
 ##### ChatGPT attempts to play through the 1973 version of Hammurabi (aka King of Sumeria / The Sumer Game)
 
 ## <sub> What is it?
 
 * Another command line tool for the [OpenAI API - Docs](https://platform.openai.com/docs/introduction).
-* Allows ChatGPT to play through the classic game [Hammurabi (1973)](https://en.wikipedia.org/wiki/Hamurabi_(video_game)).
+* Allows ChatGPT to play through the classic game [Hamurabi (1973)](https://en.wikipedia.org/wiki/Hamurabi_(video_game)).
 * It will try its best to play through the game. You can continue or stop the game at each step in execution.
 
 ```
-   ____ _           _    ____ ____ _____                  
-  / ___| |__   __ _| |_ / ___|  _ \_   _|                 
- | |   | '_ \ / _` | __| |  _| |_) || |                   
- | |___| | | | (_| | |_| |_| |  __/ | |                   
-  \____|_| |_|\__,_|\__|\____|_|    |_|                   
- |  _ \| | __ _ _   _ ___                                 
- | |_) | |/ _` | | | / __|                                
- |  __/| | (_| | |_| \__ \                                
- |_|  _|_|\__,_|\__, |___/                        _     _ 
- | | | | __ _ _ |___/_  _ __ ___  _   _ _ __ __ _| |__ (_)
- | |_| |/ _` | '_ ` _ \| '_ ` _ \| | | | '__/ _` | '_ \| |
- |  _  | (_| | | | | | | | | | | | |_| | | | (_| | |_) | |
- |_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
-                                                          
+   ____ _           _    ____ ____ _____        
+  / ___| |__   __ _| |_ / ___|  _ \_   _|       
+ | |   | '_ \ / _` | __| |  _| |_) || |         
+ | |___| | | | (_| | |_| |_| |  __/ | |         
+  \____|_| |_|\__,_|\__|\____|_|    |_|         
+ |  _ \| | __ _ _   _ ___                       
+ | |_) | |/ _` | | | / __|                      
+ |  __/| | (_| | |_| \__ \                      
+ |_|  _|_|\__,_|\__, |___/              _     _ 
+ | | | | __ _ _ |___/_  _   _ _ __ __ _| |__ (_)
+ | |_| |/ _` | '_ ` _ \| | | | '__/ _` | '_ \| |
+ |  _  | (_| | | | | | | |_| | | | (_| | |_) | |
+ |_| |_|\__,_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
+                                                                                                          
 
-ChatGPT and Hammurabi are ready to begin.
+ChatGPT and Hamurabi are ready to begin.
 
 
 Congratulations, you are the newest ruler of ancient Samaria, elected
@@ -506,22 +506,23 @@ TERMINATE CONDITION HIT
 
 * Install the latest version of [Python 3](https://www.python.org/downloads).
 * Install the OpenAI [Python package](https://pypi.org/project/openai).
-* Install [pexpect](https://pypi.org/project/pexpect) to control the Oregon Trail process. 
+* Install [pexpect](https://pypi.org/project/pexpect) to control the game process. 
 * Clone the repo.
-* Hammurabi can be installed in a number of ways and it depends on your system.
-  * Easy to use [Python2 version.](https://github.com/wzhishen/hammurabi)
-  * Updated [Python3 version.]()
+* Hamurabi can be installed in a number of ways and it depends on your system.
+  * [Python2 version.](https://github.com/wzhishen/hammurabi)
   * [c port](https://github.com/beyonddream/hamurabi) (untested).
+  * BASIC src.
+  * Better Python3 ver.
 
 ## <sub> How to use.
 
 * Add your OpenAI API key to <b>config.ini</b>.
-* Ensure the Hammurabi command in <b>config.ini</b> is correct or update it for your specific install.
-* python3 chatgpt_plays_hammurabi.py
+* Ensure the Hamurabi command in <b>config.ini</b> is correct or update it for your specific install.
+* python3 chatgpt_plays_hamurabi.py
   * Run default application.
-* python3 chatgpt_plays_hammurabi.py -h
+* python3 chatgpt_plays_hamurabi.py -h
   * Display help message.
-* python3 chatgpt_plays_hammurabi.py -m "gpt-4"
+* python3 chatgpt_plays_hamurabi.py -m "gpt-4"
   * Use model "gpt-4".
-* python3 chatgpt_plays_hammurabi.py -U
+* python3 chatgpt_plays_hamurabi.py -U
   * UNLEASHED mode. This lets ChatGPT play without user interaction until OT process terminates.

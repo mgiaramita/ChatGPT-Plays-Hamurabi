@@ -17,20 +17,20 @@ PROC_RSP_WAIT = 2
 
 
 LOGO = """
-   ____ _           _    ____ ____ _____                  
-  / ___| |__   __ _| |_ / ___|  _ \_   _|                 
- | |   | '_ \ / _` | __| |  _| |_) || |                   
- | |___| | | | (_| | |_| |_| |  __/ | |                   
-  \____|_| |_|\__,_|\__|\____|_|    |_|                   
- |  _ \| | __ _ _   _ ___                                 
- | |_) | |/ _` | | | / __|                                
- |  __/| | (_| | |_| \__ \                                
- |_|  _|_|\__,_|\__, |___/                        _     _ 
- | | | | __ _ _ |___/_  _ __ ___  _   _ _ __ __ _| |__ (_)
- | |_| |/ _` | '_ ` _ \| '_ ` _ \| | | | '__/ _` | '_ \| |
- |  _  | (_| | | | | | | | | | | | |_| | | | (_| | |_) | |
- |_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
-                                                          
+   ____ _           _    ____ ____ _____        
+  / ___| |__   __ _| |_ / ___|  _ \_   _|       
+ | |   | '_ \ / _` | __| |  _| |_) || |         
+ | |___| | | | (_| | |_| |_| |  __/ | |         
+  \____|_| |_|\__,_|\__|\____|_|    |_|         
+ |  _ \| | __ _ _   _ ___                       
+ | |_) | |/ _` | | | / __|                      
+ |  __/| | (_| | |_| \__ \                      
+ |_|  _|_|\__,_|\__, |___/              _     _ 
+ | | | | __ _ _ |___/_  _   _ _ __ __ _| |__ (_)
+ | |_| |/ _` | '_ ` _ \| | | | '__/ _` | '_ \| |
+ |  _  | (_| | | | | | | |_| | | | (_| | |_) | |
+ |_| |_|\__,_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
+                                                
 """
 
 tokens_input = 0
@@ -67,13 +67,13 @@ def chatgpt_game_loop(command, model, moderate=True):
     message_history = [
         {
             "role": "user",
-            "content": "You are playing the classic game Hammurabi (1973). Listen to the prompts and respond with simple command answers to the question asked. Usually the answer will be a while number. Make sure you feed people but do not use all of your resources or money at one time. Say OK if you understand and are ready to begin playing.",
+            "content": "You are playing the classic game Hamurabi (1973). Listen to the prompts and respond with simple command answers to the question asked. Usually the answer will be a while number. Make sure you feed people but do not use all of your resources or money at one time. Say OK if you understand and are ready to begin playing.",
         },
         {"role": "assistant", "content": "OK"},
     ]
 
     h_proc = pexpect.spawn(command, echo=False)
-    print("ChatGPT and Hammurabi are ready to begin.")
+    print("ChatGPT and Hamurabi are ready to begin.")
     time.sleep(PROC_RSP_WAIT)
 
     try:
