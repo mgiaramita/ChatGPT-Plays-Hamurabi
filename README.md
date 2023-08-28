@@ -1,7 +1,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/psf/black/blob/main/LICENSE)
 
-# ChatGPT Plays Hammurabi
+# ChatGPT Plays Hamurabi
 
 ```
    ____ _           _    ____ ____ _____        
@@ -510,9 +510,9 @@ TERMINATE CONDITION HIT
 * Clone the repo.
 * Hamurabi can be installed in a number of ways and it depends on your system.
   * [Python2 version.](https://github.com/wzhishen/hammurabi)
-  * [c port](https://github.com/beyonddream/hamurabi) (untested).
-  * BASIC src.
-  * Better Python3 ver.
+  * [C port](https://github.com/beyonddream/hamurabi) (Untested).
+  * BASIC source can be found in various places online (See image below).
+  * Better Python3 versions are also all over github.
 
 ## <sub> How to use.
 
@@ -526,3 +526,7 @@ TERMINATE CONDITION HIT
   * Use model "gpt-4".
 * python3 chatgpt_plays_hamurabi.py -U
   * UNLEASHED mode. This lets ChatGPT play without user interaction until OT process terminates.
+
+## <sub> Source code, page from "BASIC Computer Games" (1978)
+
+![src](https://web.archive.org/web/20221002064031if_/https://www.atariarchives.org/basicgames/pages/page79.gif)
