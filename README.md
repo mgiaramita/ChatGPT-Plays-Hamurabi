@@ -19,7 +19,7 @@
  |_| |_|\__,_|_| |_| |_|\__,_|_|  \__,_|_.__/|_|
                                                                                                           
 ```
-##### ChatGPT attempts to play through the 1973 version of Hammurabi (aka King of Sumeria / The Sumer Game)
+##### ChatGPT attempts to play through the 1973 version of Hamurabi (aka King of Sumeria / The Sumer Game)
 
 ## <sub> What is it?
 
@@ -529,4 +529,4 @@ TERMINATE CONDITION HIT
 
 ## <sub> Source code, page from "BASIC Computer Games" (1978)
 
-![src](https://web.archive.org/web/20221002064031if_/https://www.atariarchives.org/basicgames/pages/page79.gif)
+![src](imgs/page79.gif)
